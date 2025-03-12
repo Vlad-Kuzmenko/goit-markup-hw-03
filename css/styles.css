@@ -65,11 +65,10 @@ button {
 }
 
 /* #region header */
-.container.header-container {
+.header-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    align-items: center;
 }
 
 .page-header {
@@ -115,6 +114,7 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: inline-block;
 }
 
 .nav-link:hover, .nav-link:focus {
